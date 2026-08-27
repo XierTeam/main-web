@@ -1,0 +1,216 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-08-27",
+    "description": "子站及工具分类全局配置"
+  },
+  "categories": [
+    {
+      "id": "image",
+      "name": { "zh": "图片工具", "en": "Image Tools" },
+      "shortName": { "zh": "图片", "en": "Image" },
+      "icon": "image",
+      "iconType": "lucide",
+      "color": "#10B981",
+      "bgColor": "#D1FAE5",
+      "sort": 1,
+      "visible": true
+    },
+    {
+      "id": "ai",
+      "name": { "zh": "AI 工具", "en": "AI Tools" },
+      "shortName": { "zh": "AI", "en": "AI" },
+      "icon": "sparkles",
+      "iconType": "lucide",
+      "color": "#06B6D4",
+      "bgColor": "#CFFAFE",
+      "sort": 2,
+      "visible": true
+    },
+    {
+      "id": "utility",
+      "name": { "zh": "实用工具", "en": "Utilities" },
+      "shortName": { "zh": "工具", "en": "Tools" },
+      "icon": "wrench",
+      "iconType": "lucide",
+      "color": "#6366F1",
+      "bgColor": "#E0E7FF",
+      "sort": 3,
+      "visible": true
+    }
+  ],
+  "subSites": [
+    {
+      "id": "image-compression",
+      "path": "/app/image-compression",
+      "name": { "zh": "图片压缩", "en": "Image Compression" },
+      "description": {
+        "zh": "智能无损压缩，支持 JPG/PNG/WebP，批量处理不损画质",
+        "en": "Smart lossless compression for JPG/PNG/WebP with batch processing"
+      },
+      "shortDesc": { "zh": "无损压缩图片", "en": "Compress Images" },
+      "category": "image",
+      "icon": "compress",
+      "iconType": "lucide",
+      "coverImage": "/images/covers/image-compression.svg",
+      "badge": "hot",
+      "badgeText": { "zh": "热门", "en": "Hot" },
+      "color": "#10B981",
+      "features": [
+        { "zh": "无损压缩", "en": "Lossless" },
+        { "zh": "批量处理", "en": "Batch" },
+        { "zh": "多格式支持", "en": "Multi-format" }
+      ],
+      "stats": {
+        "users": { "value": 150000, "suffix": { "zh": "+", "en": "+" } },
+        "files": { "value": 1200000, "suffix": { "zh": "+", "en": "+" } }
+      },
+      "tags": ["image", "compression", "batch"],
+      "isNew": false,
+      "isExternal": false,
+      "sort": 1,
+      "visible": true
+    },
+    {
+      "id": "image-editing",
+      "path": "/app/image-editing",
+      "name": { "zh": "图片编辑", "en": "Image Editing" },
+      "description": {
+        "zh": "在线裁剪、旋转、滤镜、调色，无需安装软件",
+        "en": "Online crop, rotate, filter and adjust colors — no install needed"
+      },
+      "shortDesc": { "zh": "在线编辑图片", "en": "Edit Images" },
+      "category": "image",
+      "icon": "palette",
+      "iconType": "lucide",
+      "coverImage": "/images/covers/image-editing.svg",
+      "badge": null,
+      "badgeText": null,
+      "color": "#F59E0B",
+      "features": [
+        { "zh": "在线裁剪", "en": "Crop" },
+        { "zh": "滤镜特效", "en": "Filters" },
+        { "zh": "色彩调节", "en": "Color Adjust" }
+      ],
+      "stats": null,
+      "tags": ["image", "edit", "filter"],
+      "isNew": false,
+      "isExternal": false,
+      "sort": 2,
+      "visible": true
+    },
+    {
+      "id": "image-ai",
+      "path": "/app/image-ai",
+      "name": { "zh": "图片 AI", "en": "Image AI" },
+      "description": {
+        "zh": "AI 抠图、智能放大、背景替换、风格迁移",
+        "en": "AI background removal, upscaling, replacement and style transfer"
+      },
+      "shortDesc": { "zh": "AI 处理图片", "en": "AI Image" },
+      "category": "ai",
+      "icon": "sparkles",
+      "iconType": "lucide",
+      "coverImage": "/images/covers/image-ai.svg",
+      "badge": "new",
+      "badgeText": { "zh": "新上线", "en": "New" },
+      "color": "#06B6D4",
+      "features": [
+        { "zh": "AI 抠图", "en": "AI Remove BG" },
+        { "zh": "智能放大", "en": "AI Upscale" },
+        { "zh": "风格迁移", "en": "Style Transfer" }
+      ],
+      "stats": null,
+      "tags": ["ai", "image", "remove-bg", "upscale"],
+      "isNew": true,
+      "isExternal": false,
+      "sort": 1,
+      "visible": true
+    },
+    {
+      "id": "web-tools",
+      "path": "/app/web-tools",
+      "name": { "zh": "工具箱", "en": "Web Tools" },
+      "description": {
+        "zh": "JSON 格式化、Base64 编解码、二维码生成、正则测试等实用小工具",
+        "en": "JSON formatter, Base64 codec, QR code generator, regex tester and more"
+      },
+      "shortDesc": { "zh": "开发者工具集", "en": "Dev Toolkit" },
+      "category": "utility",
+      "icon": "wrench",
+      "iconType": "lucide",
+      "coverImage": "/images/covers/web-tools.svg",
+      "badge": null,
+      "badgeText": null,
+      "color": "#6366F1",
+      "features": [
+        { "zh": "JSON 工具", "en": "JSON Tools" },
+        { "zh": "编码转换", "en": "Encoding" },
+        { "zh": "二维码", "en": "QR Code" }
+      ],
+      "stats": null,
+      "tags": ["json", "base64", "qr-code", "regex"],
+      "isNew": false,
+      "isExternal": false,
+      "sort": 1,
+      "visible": true
+    }
+  ],
+  "featuredGroups": [
+    {
+      "id": "popular",
+      "title": { "zh": "热门工具", "en": "Popular Tools" },
+      "subtitle": { "zh": "最受欢迎的工具集合", "en": "Most popular tools" },
+      "layout": "grid",
+      "columns": 4,
+      "siteIds": ["image-compression", "image-ai", "image-editing", "web-tools"]
+    },
+    {
+      "id": "image-suite",
+      "title": { "zh": "图片工具套件", "en": "Image Tool Suite" },
+      "subtitle": { "zh": "一站式图片处理解决方案", "en": "One-stop image processing" },
+      "layout": "horizontal",
+      "columns": 3,
+      "siteIds": ["image-compression", "image-editing", "image-ai"]
+    }
+  ],
+  "homePage": {
+    "stats": [
+      {
+        "id": "users",
+        "value": 1000000,
+        "suffix": { "zh": "+", "en": "+" },
+        "label": { "zh": "活跃用户", "en": "Active Users" },
+        "icon": "users"
+      },
+      {
+        "id": "files",
+        "value": 10000000,
+        "suffix": { "zh": "+", "en": "+" },
+        "label": { "zh": "文件处理", "en": "Files Processed" },
+        "icon": "file-check"
+      },
+      {
+        "id": "tools",
+        "value": 50,
+        "suffix": { "zh": "+", "en": "+" },
+        "label": { "zh": "在线工具", "en": "Online Tools" },
+        "icon": "box"
+      },
+      {
+        "id": "uptime",
+        "value": 99.9,
+        "suffix": { "zh": "%", "en": "%" },
+        "label": { "zh": "服务可用性", "en": "Uptime" },
+        "icon": "activity"
+      }
+    ],
+    "heroKeywords": [
+      { "text": { "zh": "图片", "en": "Images" }, "color": "#F43F5E" },
+      { "text": { "zh": "压缩", "en": "Compress" }, "color": "#10B981" },
+      { "text": { "zh": "编辑", "en": "Edit" }, "color": "#F59E0B" },
+      { "text": { "zh": "AI", "en": "AI" }, "color": "#06B6D4" },
+      { "text": { "zh": "工具", "en": "Tools" }, "color": "#6366F1" }
+    ]
+  }
+}

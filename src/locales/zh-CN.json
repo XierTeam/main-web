@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "ToolBox",
+    "tagline": "一站式在线工具平台",
+    "title": "ToolBox · 一站式在线工具平台",
+    "titleEn": "ToolBox · All-in-one Online Tools"
+  },
+  "nav": {
+    "home": "首页",
+    "popular": "热门工具",
+    "tools": "全部工具",
+    "categories": "工具分类",
+    "viewAll": "查看全部",
+    "language": "语言",
+    "zh": "简体中文",
+    "en": "English"
+  },
+  "hero": {
+    "pill": "无需注册 · 永久免费",
+    "titlePrefix": "让",
+    "titleSuffix": "更简单",
+    "subtitle": "图片压缩、AI 图像处理、格式转换、开发者工具……所有工具即开即用，数据在浏览器本地处理，安全又高效。",
+    "searchPlaceholder": "搜索工具，如：图片压缩、JSON 格式化…",
+    "searchHint": "热门搜索："
+  },
+  "tools": {
+    "sectionTitle": "全部工具",
+    "sectionSubtitle": "按分类浏览，即开即用，无需下载",
+    "all": "全部",
+    "open": "打开工具",
+    "viewAll": "查看全部",
+    "empty": "没有找到匹配的工具",
+    "emptyHint": "换个关键词试试，或清除筛选条件",
+    "resultCount": "找到 {n} 个工具"
+  },
+  "showcase": {
+    "cta": "立即使用",
+    "statUsers": "用户",
+    "statFiles": "处理文件"
+  },
+  "cta": {
+    "title": "准备好开始了吗？",
+    "subtitle": "所有工具免费使用，无需注册，即刻体验。",
+    "button": "浏览全部工具"
+  },
+  "footer": {
+    "aboutTitle": "关于 ToolBox",
+    "aboutText": "ToolBox 是一个免费的一站式在线工具平台，所有工具均可在浏览器中直接使用，数据本地处理，不上传服务器。",
+    "products": "产品工具",
+    "categories": "分类导航",
+    "quickLinks": "快速链接",
+    "rights": "保留所有权利",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "backTop": "回到顶部",
+    "backHome": "返回首页"
+  },
+  "misc": {
+    "loading": "加载中…",
+    "errorTitle": "页面加载失败",
+    "errorDesc": "配置数据加载失败，请检查网络后重试",
+    "retry": "重新加载",
+    "newWindow": "新窗口打开"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "ToolBox",
+    "tagline": "All-in-one online tools",
+    "title": "ToolBox · All-in-one Online Tools",
+    "titleEn": "ToolBox · All-in-one Online Tools"
+  },
+  "nav": {
+    "home": "Home",
+    "popular": "Popular",
+    "tools": "All Tools",
+    "categories": "Categories",
+    "viewAll": "View all",
+    "language": "Language",
+    "zh": "简体中文",
+    "en": "English"
+  },
+  "hero": {
+    "pill": "Free forever · No sign-up",
+    "titlePrefix": "Make",
+    "titleSuffix": "easier",
+    "subtitle": "Image compression, AI image processing, format conversion, developer tools… Everything runs right in your browser, locally and securely.",
+    "searchPlaceholder": "Search tools, e.g. compress image, JSON formatter…",
+    "searchHint": "Popular:"
+  },
+  "tools": {
+    "sectionTitle": "All Tools",
+    "sectionSubtitle": "Browse by category, use instantly — no download needed",
+    "all": "All",
+    "open": "Open tool",
+    "viewAll": "View all",
+    "empty": "No matching tools found",
+    "emptyHint": "Try another keyword or clear the filters",
+    "resultCount": "{n} tools found"
+  },
+  "showcase": {
+    "cta": "Use now",
+    "statUsers": "Users",
+    "statFiles": "Files processed"
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "All tools are free to use — no sign-up needed.",
+    "button": "Browse all tools"
+  },
+  "footer": {
+    "aboutTitle": "About ToolBox",
+    "aboutText": "ToolBox is a free all-in-one online tools platform. Everything runs in your browser — your data stays local and is never uploaded.",
+    "products": "Products",
+    "categories": "Categories",
+    "quickLinks": "Quick Links",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "backTop": "Back to top",
+    "backHome": "Back to home"
+  },
+  "misc": {
+    "loading": "Loading…",
+    "errorTitle": "Failed to load page",
+    "errorDesc": "Could not load the configuration. Please check your connection and retry.",
+    "retry": "Reload",
+    "newWindow": "Open in new window"
+  }
+}

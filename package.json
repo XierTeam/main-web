@@ -1,0 +1,27 @@
+{
+  "name": "toolbox-main",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ToolBox 主站 · 配置驱动的一站式在线工具门户",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:error": "node scripts/smoke-error.mjs"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.525.0",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.41",
+    "vue-i18n": "^11.1.9"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^66.8.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "puppeteer-core": "^25.9.0",
+    "unocss": "^66.8.1",
+    "vite": "^7.3.6"
+  }
+}

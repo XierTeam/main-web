@@ -1,0 +1,110 @@
+<script setup>
+import { computed } from 'vue'
+import {
+  Activity,
+  AlertTriangle,
+  ArrowRight,
+  ArrowUpRight,
+  BadgeCheck,
+  Box,
+  ChevronDown,
+  ChevronRight,
+  CircleCheck,
+  Clock3,
+  Command,
+  Copy,
+  Crop,
+  ExternalLink,
+  FileCheck,
+  FileText,
+  Flame,
+  Github,
+  Globe,
+  Heart,
+  Image,
+  Layers,
+  LayoutGrid,
+  Loader2,
+  Mail,
+  MapPin,
+  Menu,
+  Palette,
+  Puzzle,
+  RefreshCw,
+  Rocket,
+  ScanLine,
+  Search,
+  Settings,
+  ShieldCheck,
+  Shrink,
+  Sparkles,
+  Star,
+  Trash2,
+  Users,
+  Wand2,
+  Wrench,
+  X,
+  Zap,
+} from 'lucide-vue-next'
+
+/**
+ * 动态图标：根据 JSON 中的 icon 名称（lucide kebab-case）渲染对应图标。
+ * 白名单映射保证 tree-shaking；未知名称回退为 Box。
+ */
+const icons = {
+  activity: Activity,
+  'alert-triangle': AlertTriangle,
+  'arrow-right': ArrowRight,
+  'arrow-up-right': ArrowUpRight,
+  'badge-check': BadgeCheck,
+  box: Box,
+  'chevron-down': ChevronDown,
+  'chevron-right': ChevronRight,
+  'circle-check': CircleCheck,
+  'clock-3': Clock3,
+  command: Command,
+  compress: Shrink,
+  copy: Copy,
+  crop: Crop,
+  'external-link': ExternalLink,
+  'file-check': FileCheck,
+  'file-text': FileText,
+  flame: Flame,
+  github: Github,
+  globe: Globe,
+  heart: Heart,
+  image: Image,
+  layers: Layers,
+  'layout-grid': LayoutGrid,
+  'loader-2': Loader2,
+  mail: Mail,
+  'map-pin': MapPin,
+  menu: Menu,
+  palette: Palette,
+  puzzle: Puzzle,
+  'refresh-cw': RefreshCw,
+  rocket: Rocket,
+  'scan-line': ScanLine,
+  search: Search,
+  settings: Settings,
+  'shield-check': ShieldCheck,
+  sparkles: Sparkles,
+  star: Star,
+  'trash-2': Trash2,
+  users: Users,
+  'wand-2': Wand2,
+  wrench: Wrench,
+  x: X,
+  zap: Zap,
+}
+
+const props = defineProps({
+  name: { type: String, default: 'box' },
+})
+
+const resolved = computed(() => icons[props.name] || Box)
+</script>
+
+<template>
+  <component :is="resolved" v-bind="$attrs" aria-hidden="true" />
+</template>
