@@ -127,7 +127,7 @@ function goToAnchor(id) {
       <div
         class="container-page flex flex-col items-center justify-between gap-3 py-5 text-xs text-slate-400 sm:flex-row"
       >
-        <p>© {{ year }} {{ t('brand.name') }} · {{ t('footer.rights') }}</p>
+        <p>© {{ year }} XierTeam · {{ t('footer.rights') }}</p>
         <div class="flex items-center gap-4">
           <a href="#" class="transition-colors hover:text-brand-600">{{ t('footer.privacy') }}</a>
           <a href="#" class="transition-colors hover:text-brand-600">{{ t('footer.terms') }}</a>
